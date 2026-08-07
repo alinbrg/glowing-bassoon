@@ -125,6 +125,9 @@ export const results = [
 			image: {
 				url: "https://content.skyscnr.com/1326f876f67413db59cc34a466945260/GettyImages-493113190.jpg",
 			},
+			flightRoutes: {
+				directFlightsAvailable: false,
+			},
 		},
 	},
 	{
@@ -185,6 +188,9 @@ export const results = [
 			image: {
 				url: "https://content.skyscnr.com/6f3779016c23190fadcdc6f500f5dc11/GettyImages-464420602.jpg",
 			},
+			flightRoutes: {
+				directFlightsAvailable: false,
+			},
 		},
 	},
 	{
@@ -210,6 +216,9 @@ export const results = [
 			},
 			image: {
 				url: "https://content.skyscnr.com/92ec24310bc1e0c2c5022132dd1d4d55/GettyImages-178766147.jpg",
+			},
+			flightRoutes: {
+				directFlightsAvailable: false,
 			},
 		},
 	},
