@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bg-color: white;
+}
+
+body.dark {
+	background-color: black;
+	color: white;
+	--bg-color: black;
+}
+
+body {
+	background-color: white;
+	color: black;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+img {
+	max-width: 100%;
+}
+button {
+	padding: 5px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+body.dark .card {
+	border-color: white;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	max-width: 400px;
+	border-radius: 16px;
+	border: 2px solid black;
+	padding: 10px;
+	margin: 10px;
+	button {
+		background-color: lightblue;
+		border: none;
+	}
+}
+
+.cards-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
